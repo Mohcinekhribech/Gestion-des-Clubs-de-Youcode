@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/da9e6ce9d6.js" crossorigin="anonymous"></script>
+        <title>YC Club</title>
+    </head>
+<body >
+    <header>
+        <nav>
+            <i class="fa-solid fa-bars" id="fbi"></i>
+            <img class="logo" src="./img/yclogo (1) 1.png" alt="Logo">
+            <ul id="ul">
+                <i class="fa-solid fa-x" id="fxi"></i>
+                <li><a href="./index.html">Accueil</a></li>
+                <li id="space"><a href="./page2.html">gérer les clubs</a></li>
+                <li><a href="#">gérer les membres</a></li>
+            </ul>
+            <p id="login">Log in</p>
+        </nav>
+    </header>
+
+    <div class="jgrp" id="fajm">
+        <div class="rigth" style="border-radius:10px; height: max-content;">
+            <form action="" class="fjoindre">
+                <h4 style="text-align: center; margin-left:-50px; margin-top: 20px;">Ajouter</h4><i class="fa-solid fa-x" id="fa-x" style="position: relative; width:max-content; margin-left:90%; margin-top:-40px;"></i>
+                <input type="text" name="user" id="user" placeholder="Nom et prenom">
+                <p id="puser" style="color: red;">invalid !</p>
+                <input type="text" name="ndgrp" id="ndgrp" placeholder="Nom de group">
+                <p id="pndgrp" style="color: red;">invalid !</p>
+                <input type="text" name="class" id="class" placeholder="class">
+                <p id="pclass" style="color: red;">invalid !</p>
+                <input type="text" name="age" id="age" placeholder="Age">
+                <p id="page" style="color: red;">invalid !</p>
+                <input type="submit" value="Envoyer" class="save" style="margin-bottom: 30px;">
+            </form>
+            
+        </div>
+        </div>
+    <div class="membre">
+        <h2>Gerer les Membres</h2>
+        <button class="button">
+            <a class="btn btn-primary" id="ajm" >+ Ajouter un membre</a>
+        </button>
+        <table class="tableau-style">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nom et prenom</th>
+                        <th>Club</th>
+                        <th>Class</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>aziz</td>
+                        <td>Art</td>
+                        <td>ada</td>
+                        <td>20</td>
+                        <td>
+                            <button class="botton-modifier">modifier</button>
+                            <button class="botton-suprimer">suprimer</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>aziz</td>
+                        <td>Art</td>
+                        <td>ada</td>
+                        <td>20</td>
+                        <td>
+                            <button class="botton-modifier">modifier</button>
+                            <button class="botton-suprimer">suprimer</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>aziz</td>
+                        <td>Art</td>
+                        <td>ada</td>
+                        <td>20</td>
+                        <td>
+                            <button class="botton-modifier">modifier</button>
+                            <button class="botton-suprimer">suprimer</button>
+                        </td>
+                    </tr>
+                </tbody>
+    </table>
+    </div>
+    <center>
+        <div class="mmm">
+            <div class="addclub" id="addnc">
+    
+            <center>
+            <img src="./img/yclogo (1) 1.png" style="width: 80px;" alt=""><i class="fa-solid fa-x" id="fa-x"></i><br>
+            <input type="text" name="" id="" placeholder="Nom et prenom" class="addcn"><br>
+            <input type="text" name="" id="" placeholder="Nom et prenom" class="addcn"><br>
+            <input type="text" name="" id="" placeholder="Nom et prenom" class="addcn"><br>
+            <input type="text" name="" id="" placeholder="Compus" class="addcn"><br>
+            <input type="submit" value="Save" class="save" id="snc">
+            </center>
+        </div>
+        </div>
+        
+    </center>
+    <footer>
+        <img src="./img/yclogo (1) 1.png" alt="Logo" class="logo">
+        <p class="pfooter">
+            ©copyright. designed and developed by Mohcine Khribech
+        </p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        
+    </footer>
+</body>
+</html>
+<script src="./membre.js"></script>
+<script src="./pppp.js"></script>
